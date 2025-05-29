@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <title>Fotogram DEV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="load()">
+    <header>
+        <img src="./img/Fotogram_Logo.svg" alt=" Fotogram Logo">
+        <img src="./img/person2.png" alt=" account img">
+    </header>
+    <main>
+        <h1>Your Personnal Photo Album</h1>
+        <div class="fotogram" id="fotoalbum">
+
+        </div>
+        <div id="foto" class="foto_element" onclick="close_popup(event)">
+            <div class="popup" id="popup" onclick="stop_event(event)">
+                
+                
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <img src="./img/favicon.svg" alt=" fotogram">
+        <p>Entwickelt bei Rucel mit ❤️</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
